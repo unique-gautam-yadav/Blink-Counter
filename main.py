@@ -47,8 +47,8 @@ def get_blink_ratio(eye_points):
     return ratio
 
 
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('Video.mp4')
+cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture('Video.mp4')
 
 while True:
 
